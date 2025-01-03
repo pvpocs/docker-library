@@ -11,10 +11,9 @@ function load_recipes(){
         "development-base|nodejs,awscli,aws_cdk,docker|$__registry/anaconda-base"
         "development|shell|$__registry/development-base"
         "anaconda|shell|$__registry/anaconda-base"
-        "datascience|datascience,shell|$__registry/anaconda-base"
-        "awscli|ubuntu,awscli,shell"
+        "awscli|awscli,shell"
         "go-dev|ubuntu,golang,shell"
-        "hugo|ubuntu,hugo,shell"
+        "hugo|hugo,shell"
         "hugo-dev|hugo,shell|$__registry/development-base"
     )
 }
